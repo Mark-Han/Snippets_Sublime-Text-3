@@ -1,0 +1,71 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[aps,prl,reprint,showpacs,superscriptaddress,notitlepage]{revtex4-1}
+\usepackage[T1]{fontenc}
+\usepackage{stix}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage[colorlinks,
+linkcolor=red,
+citecolor=cyan,
+urlcolor=magenta,
+bookmarks=true,
+]{hyperref}
+\begin{document}
+
+\title{${1:Please change the tile first}}
+
+\author{S K Han}
+    \email
+    % [To whom all correspondence should be addressed:\newline]
+    {hanshikai@mail.dlut.edu.cn}
+    \affiliation{
+    Department of Engineering Mechanics,
+    Dalian University of Technology, Dalian 116024, China
+    }
+
+\author{Z Chen}
+    \email{ChenZh@missouri.edu}
+    \affiliation{
+    Department of Engineering Mechanics,
+    Dalian University of Technology, Dalian 116024, China
+    }
+    \affiliation{
+    Department of Civil and Environmental Engineering, 
+    University of Missouri, Columbia, MO 65211-2200, USA
+    }
+
+\author{C W Wu}
+    \email{cwwu@dlut.edu.cn}
+    \affiliation{
+    Department of Engineering Mechanics,
+    Dalian University of Technology, Dalian 116024, China
+    }
+
+%\date{\today}
+\date{${2:2 Jul.}, 2016}
+\begin{abstract}
+
+\end{abstract}
+% insert suggested PACS numbers in braces on next line
+\pacs{43.20.+g, 46.40.Cd}
+% http://journals.aps.org/PACS/
+% insert suggested keywords - APS authors don't need to do this
+%\maketitle must follow title, authors, abstract, \pacs, and \keywords
+\maketitle
+
+$0
+
+\begin{acknowledgments}
+
+The authors contributed equally to this work, and declare no conflict of interest.
+\end{acknowledgments}
+
+\bibliography{C:/EndNote/Meta}
+
+\end{document}
+]]></content>
+	<tabTrigger>revtex</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

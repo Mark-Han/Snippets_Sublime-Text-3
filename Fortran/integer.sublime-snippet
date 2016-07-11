@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+integer(kind=${1:8}) :: 
+]]>
+</content>
+        <tabTrigger>int</tabTrigger>
+        <scope>source.modern-fortran</scope>
+        <description>integer</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+program ${1:}
+implicit none
+$0
+end program $1]]></content>
+    <tabTrigger>prog</tabTrigger>
+    <scope>source.modern-fortran</scope>
+    <description>program</description>
+</snippet>

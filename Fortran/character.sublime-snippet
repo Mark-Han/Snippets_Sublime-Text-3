@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+character(len=${1:}) :: ${2:c} = '$0'
+]]></content>
+    <tabTrigger>cha</tabTrigger>
+    <scope>source.modern-fortran</scope>
+    <description>character</description>
+</snippet>

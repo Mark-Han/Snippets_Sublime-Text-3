@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+select case (${1:})
+    case (${2:})
+        ${3:}
+    case default
+        $0
+endselect
+]]></content>
+    <tabTrigger>select</tabTrigger>
+    <scope>source.modern-fortran</scope>
+    <description>select case</description>
+</snippet>
