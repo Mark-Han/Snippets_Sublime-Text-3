@@ -1,0 +1,5 @@
+{	
+    "working_dir": "${file_path}",
+	"cmd": "gfortran ${file} -o ${file_base_name}",
+	"selector": "source.modern-fortran, source.fixedform-fortran",
+ }
